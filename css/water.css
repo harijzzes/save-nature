@@ -1,0 +1,7 @@
+body 
+{
+    background: linear-gradient(rgba(145, 133, 111, 0.637), rgba(119, 109, 86, 0.591)), url("../files/cards4.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}

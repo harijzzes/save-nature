@@ -1,0 +1,85 @@
+.fond-hero 
+{
+    text-align: center;
+    padding: 30px 20px; /* Отступы сверху и снизу */
+}
+
+.fond-hero1 
+{ 
+    text-align: center;
+}
+
+.fond-hero h1 
+{
+    font-size: 30px;
+    margin-bottom: 15px; /* Отступ между заголовком и текстом */ 
+    font-style: italic; /* Курсив для придания изящества */
+    font-family: 'Georgia'; /* Элегантный шрифт для заголовка */
+}
+
+.fond-hero h2, .fond-hero1 h2
+{
+    font-size: 24px;
+    margin-bottom: 15px; /* Отступ между заголовком и текстом */ 
+    font-style: italic; /* Курсив для придания изящества */
+    font-family: 'Georgia'; /* Элегантный шрифт для заголовка */
+}  
+
+.fond-hero p 
+{
+    max-width: 800px; /*Ограничивает ширину текста для лучшей читаемости*/
+    font-size: 18px;
+    margin: 0 auto; /* Центрирует текст */
+    font-style: italic; /* Курсив для придания изящества */ 
+}
+
+/* Карточки */
+.fond-cards 
+{
+    display: flex; /* Используем flex для расположения карточек в ряд */
+    justify-content: center; /* Центрируем карточки по горизонтали */
+    gap: 40px;
+    flex-wrap: wrap; /* Позволяет карточкам переноситься на новую строку при недостатке места */
+}
+
+.fond-card 
+{
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px); /* Эффект размытия */
+    background-size: cover;
+    background-position: center;
+    padding: 30px; /* Внутренние отступы */
+    border-radius: 20px; /* Скругление углов */
+    width: 250px;
+    transition: 0.3s; /* Плавный переход при наведении */
+    background-blend-mode: darken; /* Режим наложения картинки*/
+} 
+
+.fond-card h3 
+{
+    font-size: 20px;
+    font-style: italic; /* Курсив для придания изящества */
+    font-family: 'Georgia'; /* Элегантный шрифт для заголовка */
+    transition: 0.3s; /* Плавный переход при наведении */
+} 
+
+.fond-card p 
+{ 
+    font-size: 16px;
+    font-style: italic; /* Курсив для придания изящества */
+    transition: 0.3s; /* Плавный переход при наведении */
+} 
+
+.fond-card:hover 
+{
+    transform: scale(1.04);
+    /*background: rgba(255,255,255,0.2);*/
+    backdrop-filter: blur(0px); /* Эффект размытия */
+} 
+
+.fond-card:hover h3,
+.fond-card:hover p 
+{
+    transform: translateY(-10px);
+    opacity: 0;
+}

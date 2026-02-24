@@ -1,0 +1,74 @@
+body 
+{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../files/about.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.about-hero 
+{
+    text-align: center;
+    padding: 80px 20px; /* Отступы сверху и снизу */
+}
+
+.about-hero h1 
+{
+    font-size: 40px;
+    margin-bottom: 20px; /* Отступ между заголовком и текстом */
+}
+
+.about-hero p 
+{
+    max-width: 700px; /*Ограничивает ширину текста для лучшей читаемости*/
+    font-size: 18px;
+    margin: 0 auto; /* Центрирует текст */
+}
+
+/* Карточки */
+.about-cards 
+{
+    display: flex; /* Используем Flexbox для расположения карточек в ряд */
+    justify-content: center; 
+    gap: 30px; /* Расстояние между карточками */
+    padding: 60px 20px; /* Отступы сверху и снизу */
+}
+
+.about-card 
+{
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px); /* Эффект размытия */
+    padding: 30px; /* Внутренние отступы */
+    border-radius: 15px; /* Скругление углов */
+    width: 250px;
+    transition: 0.3s; /* Плавный переход при наведении */
+}
+
+.about-card:hover 
+{
+    transform: scale(1.04);
+    background: rgba(255,255,255,0.2);
+}
+
+/* Нижний блок */
+.join-section 
+{
+    text-align: center;
+    padding: 60px 20px; /* Отступы сверху и снизу */
+}
+
+.join-button 
+{
+    display: inline-block; /* Позволяет задать размеры и padding. */
+    padding: 12px 30px;
+    background: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.join-button:hover 
+{
+    background: darkgreen;
+}

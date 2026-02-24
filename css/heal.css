@@ -1,0 +1,17 @@
+body 
+{
+    background: linear-gradient(rgba(145, 133, 111, 0.637), rgba(119, 109, 86, 0.591)), url("../files/cards3.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.chebrez 
+{ 
+    background-image: linear-gradient(rgba(145, 133, 111, 0.637), rgba(119, 109, 86, 0.591)), url("../files/chebrez.png"); 
+}
+
+.shipshina 
+{ 
+    background-image: linear-gradient(rgba(145, 133, 111, 0.637), rgba(119, 109, 86, 0.591)), url("../files/shipshina.png"); 
+}
